@@ -3,6 +3,11 @@
     src: url(../src/font/Michroma/Michroma-Regular.ttf);
 }
 
+@font-face {
+    font-family: Inter;
+    src: url(../src/font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 :root {
     /* variaveis de cores */
     --azul-texto: #0058FA;
@@ -21,12 +26,6 @@ body {
     background-position: 50% 50%;
     background-attachment: fixed;
 }
-
-.header {
-    background-color: var(--azul-texto);
-    width: auto;
-}
-
 .calculadora {
     display: flex;
     justify-content: center;
@@ -39,7 +38,6 @@ body {
     width: auto;
     height: auto;
     border-radius: 5%;
-    border: solid 2px black;
     text-align: center;
     padding: 5%;
 }
@@ -47,20 +45,20 @@ body {
 .titulo {
     color: var(--verde-binario);
     font-family: Microma;
-    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 
 .input h3 {
-    color: var(--verde-binario);
-    font-family: Microma;
-    padding: 5%;
+    color: black;
+    font-family: Inter;
+    padding-top: 5%;
 }
 
 .input input {
     text-align: center;
-    font-family: Microma;
-    font-size: small;
-    font-weight: lighter;
+    font-family: Inter;
+    font-weight: normal;
     padding: 10px;
     margin: 10px;
     border: solid 1px black;
@@ -69,19 +67,59 @@ body {
 .selecao option {
     font-family: inherit;
 }
-
+.botao{
+    padding-top: 30px;
+}
 button {
     background-color: var(--verde-binario);
     margin: 5%;
     font-family: Microma;
+    font-size: medium;
     color: white;
     padding: 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
-
 .resultado {
     margin: 5%;
-    font-family: Microma;
+    font-family: Inter;
     color: black;
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: gray;
+    height: auto;
+    padding: 20px;
+}
+
+.info_rodape {
+    font-family: Inter;
+}
+
+.titulo_rodape {
+    font-size: x-large;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+}
+
+.nomes {
     font-size: 15px;
+}
+
+.divemail {
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.email{
+    font-weight: bolder;
+}
+
+.img{
+    width: 500px;
+    height: 200px;
+    object-fit: contain;
 }
