@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Microma;
+    src: url(../src/font/Michroma/Michroma-Regular.ttf);
+}
+
+:root {
+    /* variaveis de cores */
+    --azul-texto: #0058FA;
+    --verde-binario: #008000
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(../src/img/25336.jpg);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: var(--azul-texto);
+    width: auto;
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.insidecalc {
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+    border: solid 2px black;
+    text-align: center;
+    padding: 5%;
+}
+
+.titulo {
+    color: var(--verde-binario);
+    font-family: Microma;
+    font-weight: bold;
+}
+
+.input h3 {
+    color: var(--verde-binario);
+    font-family: Microma;
+    padding: 5%;
+}
+
+.input input {
+    text-align: center;
+    font-family: Microma;
+    font-size: small;
+    font-weight: lighter;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+}
+
+.selecao option {
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--verde-binario);
+    margin: 5%;
+    font-family: Microma;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.resultado {
+    margin: 5%;
+    font-family: Microma;
+    color: black;
+    font-size: 15px;
+}
