@@ -84,7 +84,7 @@ button {
     margin: 5%;
     font-family: Inter;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 footer{
@@ -122,4 +122,10 @@ footer{
     width: 500px;
     height: 200px;
     object-fit: contain;
+}
+.h4{
+    font-family: Inter;
+}
+.h3{
+    font-family: Inter;
 }
