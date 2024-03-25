@@ -55,6 +55,11 @@ body {
     padding-top: 5%;
 }
 
+.input h4{
+    color: black;
+    font-family: Inter;
+}
+
 .input input {
     text-align: center;
     font-family: Inter;
@@ -62,10 +67,17 @@ body {
     padding: 10px;
     margin: 10px;
     border: solid 1px black;
+    border-radius: 10px;
 }
 
 .selecao option {
     font-family: inherit;
+}
+.selecao h3{
+    font-family: Inter;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .botao{
     padding-top: 30px;
@@ -81,51 +93,61 @@ button {
     cursor: pointer;
 }
 .resultado {
-    margin: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: Inter;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
 }
-
 footer{
-    text-align: center;
     background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem{
+    object-fit: contain;
+    width: 300px;
     height: auto;
-    padding: 20px;
+    padding-top: 15px;
 }
-
-.info_rodape {
+.textos{
     font-family: Inter;
+    text-align: center;
 }
-
-.titulo_rodape {
+.titulorodape{
     font-size: x-large;
+    font-weight: bolder; 
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.nometitulo{
+    font-size: 20px;
     font-weight: bolder;
     padding-bottom: 10px;
-
+    padding-top: 10px;
 }
-
-.nomes {
+.nome{
     font-size: 15px;
 }
-
-.divemail {
-    margin: 20px;
-    text-align: center;
-    font-size: 15px;
+.tituloemail{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 15px; 
+    padding-bottom: 10px;
+}
+.tituloemail{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 15px; 
+    padding-bottom: 10px;
+}
+.tituloemail{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 15px; 
+    padding-bottom: 10px;
 }
 .email{
-    font-weight: bolder;
-}
-
-.img{
-    width: 500px;
-    height: 200px;
-    object-fit: contain;
-}
-.h4{
-    font-family: Inter;
-}
-.h3{
-    font-family: Inter;
+    font-size: 15px;
 }
