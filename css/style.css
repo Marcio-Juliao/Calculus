@@ -39,7 +39,7 @@ body {
     height: auto;
     border-radius: 5%;
     text-align: center;
-    padding: 5%;
+    padding: 15px;
 }
 
 .titulo {
@@ -104,6 +104,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .imagem{
     object-fit: contain;
@@ -127,7 +128,7 @@ footer{
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.nome{
+.nomeemail{
     font-size: 15px;
 }
 .tituloemail{
@@ -136,18 +137,4 @@ footer{
     padding-top: 15px; 
     padding-bottom: 10px;
 }
-.tituloemail{
-    font-size: 20px;
-    font-weight: bolder;
-    padding-top: 15px; 
-    padding-bottom: 10px;
-}
-.tituloemail{
-    font-size: 20px;
-    font-weight: bolder;
-    padding-top: 15px; 
-    padding-bottom: 10px;
-}
-.email{
-    font-size: 15px;
-}
+
